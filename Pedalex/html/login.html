@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+
+</head>
+<body>
+
+	<div id="bodydiv">
+		
+		<div id="mainbox">
+		
+			<div id="titulo">
+
+				<h1>Login</h1>
+
+			</div>
+			
+			<form>
+
+				<div id="usuario">
+				
+					<h4>Usuário</h4>
+					<input required type="text" id="usuariovalor" name="usuario">	
+
+				</div>
+
+				<div id="senha">
+				
+				<h4>Senha</h4>
+				<input required type="password" name="senha">	
+
+				</div>
+
+				<div id="botao">
+					<button>Login</button>					
+				</div>
+				
+			</form>
+			
+
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		document.querySelector('form').addEventListener('submit', ev => ev.preventDefault())
+		document.querySelector('button').addEventListener('click', ev => document.location.href = "index.html")
+	</script>
+</body>
+</html>

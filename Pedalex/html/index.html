@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Pedalex</title>
+		<link rel="stylesheet" type="text/css" href="../css/main.css">
+	</head>
+
+	<body>
+
+		<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-48.66083979606629%2C-27.036345707354496%2C-48.64667773246766%2C-27.027610844336714&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=17/-27.03198/-48.65375">Ver Mapa Ampliado</a></small>
+
+		<form>
+
+			<div id="texto">
+				<input type="text" id="onde" placeholder="Para onde?">
+			</div>
+
+			<div class="botao">
+				<button id="go">Go</button>
+			</div>
+			
+		</form>
+
+		<script type="text/javascript">
+
+			document.querySelector('form').addEventListener('submit', ev => ev.preventDefault())
+			document.querySelector('button').addEventListener('click', ev => document.location.href = "caminhar.html")
+
+		</script>
+
+	</body>
+
+</html>

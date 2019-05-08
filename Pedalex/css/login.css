@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("../doc/background.jpeg") no-repeat center center fixed;	
+	background-size: cover;
+	overflow: hidden;
+}
+
+#bodydiv {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-wrap: row nowrap;
+	justify-content: center;
+	align-content: center;
+
+}
+
+#mainbox {
+
+	background-color: #ffffff70;
+	width: 500px;
+	height: 650px;
+	border-radius: 20px;
+
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h4 {
+	font-size: 25px;
+}
+
+#titulo {
+
+	margin-left: 50px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+	width: 500px;
+}
+
+#usuario {
+
+	width: 600px;
+	margin-left: 90px;
+}
+
+#senha {
+
+	width: 600px;
+	margin-left: 90px;
+}
+
+#botao {
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+#usuario input, #senha input {
+	height: 35px;
+	width: 310px;
+}
+
+button {
+	width: 200px;
+	height: 70px;
+	margin-top: 80px;
+	margin-right: 70px;
+}
